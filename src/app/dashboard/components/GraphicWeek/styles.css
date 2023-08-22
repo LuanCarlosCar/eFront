@@ -1,0 +1,15 @@
+.animated-box {
+    /* width: 100px; */
+    /* background-color: blue; */
+    /* transition:  0.5s ; */
+    transition: height 0.5s, transform 0.5s;
+    overflow: hidden;
+    transform-origin: bottom;
+}
+
+.animated-box.expanded {
+    transform: scaleY(1);
+    /* Inverte a escala vertical para animar de baixo para cima */
+    opacity: 1;
+    /* Torna a div visível */
+}
